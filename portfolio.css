@@ -1,0 +1,74 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header{
+    background-image: url(back.jpg);
+    text-shadow: 10px 10px 8px thistle;
+    color:black;
+    padding: 50px 0;
+    text-align: center;
+}
+header h1{
+    margin:0;
+}
+header p{
+    margin: 0;
+    font-size: 1.2em;
+}
+section{
+    padding:20px;
+    margin: 20px 0;
+}
+#about{
+    text-align: center;
+}
+#about p{
+    font-size: 1.1em;
+}
+#about img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+#skills ul{
+    list-style-type: none;
+    padding: 0;
+}
+ #skills ul li{
+    background: rgb(230, 230, 230,0.7);
+    margin: 10px 0;
+    padding: 10px;
+    border-left: 5px solid lightpink;
+} 
+#resume a{
+    display: inline-block;
+    padding: 10px 20px;
+    background:lightgray;
+    color:black;
+    text-decoration: none;
+    border-radius: 50px;
+}
+#resume a:hover{
+    background: lightgray;
+}
+#contact p {
+    margin: 5px 0;
+}
+footer{
+    background: rgb(243, 215, 219);
+    color:black;
+    text-align: center;
+    padding: 10px 0;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+footer a:hover{
+    background: lightgrey;
+}
